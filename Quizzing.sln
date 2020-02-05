@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizzingConsole", "QuizzingConsole\QuizzingConsole.csproj", "{B6110FCA-D11D-41BF-A61B-925C2E0F91BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuizzingConsole", "QuizzingConsole\QuizzingConsole.csproj", "{B6110FCA-D11D-41BF-A61B-925C2E0F91BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizzingLogic", "QuizzingLogic\QuizzingLogic.csproj", "{D85BE8E7-BF79-48D7-B767-C413BCCEDED9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuizzingLogic", "QuizzingLogic\QuizzingLogic.csproj", "{D85BE8E7-BF79-48D7-B767-C413BCCEDED9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizzingDAL", "QuizzingDAL\QuizzingDAL.csproj", "{0CFCD10D-3371-4862-9A51-7F842575E78B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuizzingDAL", "QuizzingDAL\QuizzingDAL.csproj", "{0CFCD10D-3371-4862-9A51-7F842575E78B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizzingClient", "QuizzingClient\QuizzingClient.csproj", "{962B42B3-3835-43E0-BFDA-9FFC5843E105}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{0CFCD10D-3371-4862-9A51-7F842575E78B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CFCD10D-3371-4862-9A51-7F842575E78B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CFCD10D-3371-4862-9A51-7F842575E78B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{962B42B3-3835-43E0-BFDA-9FFC5843E105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{962B42B3-3835-43E0-BFDA-9FFC5843E105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{962B42B3-3835-43E0-BFDA-9FFC5843E105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{962B42B3-3835-43E0-BFDA-9FFC5843E105}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
