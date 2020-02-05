@@ -9,6 +9,6 @@ namespace QuizzingLogic
         public int Id { get; set; }
         public string Theme { get; set; }
         public string Description { get; set; }
-        public List<aQuestion> theQuestions { get; set; }
+        public List<aQuestion> theQuestions { get; set; } = new List<aQuestion>();
     }
 }

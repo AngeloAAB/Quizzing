@@ -10,6 +10,10 @@ namespace QuizzingConsole
             bool doMore;
             do
             {
+                var exam = QFactory.GetTheQuiz(1);
+
+                Console.WriteLine(exam.theQuestions[0].eQuestion);
+
                 var question = QFactory.getQuestion(1);
 
                 Console.WriteLine(question.eQuestion);

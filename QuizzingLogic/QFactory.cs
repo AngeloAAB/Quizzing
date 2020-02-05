@@ -28,5 +28,27 @@ namespace QuizzingLogic
 
             return tq;
         }
+
+        static public TheQuizzes GetTheQuiz(int id)
+        {
+            var context = new QuizzingDbContext();
+
+            var tq = context.Exam.Where(e => e.Id == id)
+                                .Select(q => new TheQuizzes
+                                {
+                                    Id = q.Id,
+                                    Theme = q.Theme,
+                                    Description = q.Description
+                                }).FirstOrDefault();
+
+            var Q = context.Question.Where(e => e.ExamId == id)
+                                .Select(i => i.Id).ToList();
+            foreach (var q in Q)
+            {
+                tq.theQuestions.Add(getQuestion(q));
+            }
+
+            return tq;
+        }
     }
 }
